@@ -1,0 +1,26 @@
+---
+title: "Octave Implementation"
+output: html_notebook
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,cache = TRUE,engine.path = list(
+  octave = 'C:/Octave/Octave-5.2.0/mingw64/bin/octave-cli.exe'))
+```
+
+```{octave, engine.path = 'C:/Octave/Octave-5.2.0/mingw64/bin/octave-cli.exe'}
+% Octave in R %
+A=[1,2,3;4,5,6]
+[minval, row] = min(min(A,[],2));
+[minval, col] = min(min(A,[],1));
+[minval, row, col]
+```
+
+
+
+
+
+
+
+
+

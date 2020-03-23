@@ -1,2 +1,2 @@
-# Project_JMA_1
-Development and test GitHub
+# Project_JMA
+Octave in R
